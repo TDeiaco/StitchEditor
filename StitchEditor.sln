@@ -1,9 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenGLCSharpDemo", "OpenGLCSharpDemo\OpenGLCSharpDemo.csproj", "{51E7F931-6359-451D-B792-16A2ABB03214}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenGLTest", "OpenGLTest\OpenGLTest.csproj", "{404CCE16-FFB3-4F34-BCD9-ECA87D7CEFD2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StitchEditor", "StitchEditor\StitchEditor.csproj", "{404CCE16-FFB3-4F34-BCD9-ECA87D7CEFD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +9,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{51E7F931-6359-451D-B792-16A2ABB03214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{51E7F931-6359-451D-B792-16A2ABB03214}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{51E7F931-6359-451D-B792-16A2ABB03214}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{51E7F931-6359-451D-B792-16A2ABB03214}.Release|Any CPU.Build.0 = Release|Any CPU
 		{404CCE16-FFB3-4F34-BCD9-ECA87D7CEFD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{404CCE16-FFB3-4F34-BCD9-ECA87D7CEFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{404CCE16-FFB3-4F34-BCD9-ECA87D7CEFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
