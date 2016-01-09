@@ -15,6 +15,36 @@ namespace StichEditor
     //[Example("OpenGL 3.0", ExampleCategory.OpenGL, "3.x", Documentation = "HelloGL3")]
     public class StitchEditorMain : GameWindow
     {
+        /// <summary>
+        /// Main project file, there can only be one project.  Projects can hold multiple 
+        /// 
+        /// </summary>
+        private byte[] _projectFile;
+        /// <summary>
+        /// Main project file, there can only be one project.  Projects can hold multiple 
+        /// </summary>
+        public byte[] ProjectFile
+        {
+            get { return _projectFile; }
+            set { _projectFile = value; }
+        }
+
+        /// <summary>
+        /// Croches files are complete chrocheted objects like hats, gloves, dolls, etc..
+        /// This list contains byte[]s of raw objcet files to be loaded into StichObjects.
+        /// Projects contain multiple crochets.
+        /// </summary>
+        public List<byte[]> _croches;
+        /// <summary>
+        /// Croches are complete chrocheted objects like hats, gloves, dolls, etc..
+        /// Projects contain multiple crochets.
+        /// </summary>
+        public List<byte[]> Croches
+        {
+            get { return _croches; }
+            set { _croches = value; }
+        }
+        
         string vertexShaderSource = @"
 #version 140
 
