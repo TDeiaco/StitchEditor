@@ -13,7 +13,7 @@ namespace OpenGLTest
 {
 
     //[Example("OpenGL 3.0", ExampleCategory.OpenGL, "3.x", Documentation = "HelloGL3")]
-    public class HelloGL3 : GameWindow
+    public class StitchEditorMain : GameWindow
     {
         string vertexShaderSource = @"
 #version 140
@@ -91,7 +91,7 @@ void main(void)
 
         Matrix4 projectionMatrix, modelviewMatrix;
 
-        public HelloGL3()
+        public StitchEditorMain()
             : base(640, 480,
             new OpenTK.Graphics.GraphicsMode(), "OpenGL 3 Example", 0,
             DisplayDevice.Default, 3, 2,
@@ -232,7 +232,7 @@ void main(void)
         [STAThread]
         public static void Main()
         {
-            using (HelloGL3 example = new HelloGL3())
+            using (StitchEditorMain example = new StitchEditorMain())
             {
                 //Utilities.SetWindowTitle(example);
                 example.Run(30);

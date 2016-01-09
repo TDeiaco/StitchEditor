@@ -7,8 +7,8 @@
     <ProjectGuid>{404CCE16-FFB3-4F34-BCD9-ECA87D7CEFD2}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OpenGLTest</RootNamespace>
-    <AssemblyName>OpenGLTest</AssemblyName>
+    <RootNamespace>StitchEditor</RootNamespace>
+    <AssemblyName>StitchEditor</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -54,7 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="StitchEditorMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
