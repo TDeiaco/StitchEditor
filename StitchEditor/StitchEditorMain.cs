@@ -9,7 +9,7 @@ using OpenTK;
 using OpenTK.Graphics.OpenGL;
 using OpenTK.Platform;
 
-namespace OpenGLTest
+namespace StichEditor
 {
 
     //[Example("OpenGL 3.0", ExampleCategory.OpenGL, "3.x", Documentation = "HelloGL3")]
