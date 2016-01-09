@@ -1,0 +1,14 @@
+c:\users\deiaco\documents\visual studio 2012\Projects\OpenGLCSharpDemo\OpenGLCSharpDemo\bin\Debug\OpenGLCSharpDemo.exe.config
+c:\users\deiaco\documents\visual studio 2012\Projects\OpenGLCSharpDemo\OpenGLCSharpDemo\obj\Debug\OpenGLCSharpDemo.csprojResolveAssemblyReference.cache
+c:\users\deiaco\documents\visual studio 2012\Projects\OpenGLCSharpDemo\OpenGLCSharpDemo\obj\Debug\OpenGLCSharpDemo.Properties.Resources.resources
+c:\users\deiaco\documents\visual studio 2012\Projects\OpenGLCSharpDemo\OpenGLCSharpDemo\obj\Debug\OpenGLCSharpDemo.csproj.GenerateResource.Cache
+c:\users\deiaco\documents\visual studio 2012\Projects\OpenGLCSharpDemo\OpenGLCSharpDemo\bin\Debug\OpenGLCSharpDemo.exe
+c:\users\deiaco\documents\visual studio 2012\Projects\OpenGLCSharpDemo\OpenGLCSharpDemo\bin\Debug\OpenGLCSharpDemo.pdb
+c:\users\deiaco\documents\visual studio 2012\Projects\OpenGLCSharpDemo\OpenGLCSharpDemo\bin\Debug\OpenTK.Compatibility.dll
+c:\users\deiaco\documents\visual studio 2012\Projects\OpenGLCSharpDemo\OpenGLCSharpDemo\bin\Debug\OpenTK.dll
+c:\users\deiaco\documents\visual studio 2012\Projects\OpenGLCSharpDemo\OpenGLCSharpDemo\bin\Debug\OpenTK.GLControl.dll
+c:\users\deiaco\documents\visual studio 2012\Projects\OpenGLCSharpDemo\OpenGLCSharpDemo\bin\Debug\OpenTK.pdb
+c:\users\deiaco\documents\visual studio 2012\Projects\OpenGLCSharpDemo\OpenGLCSharpDemo\bin\Debug\OpenTK.xml
+c:\users\deiaco\documents\visual studio 2012\Projects\OpenGLCSharpDemo\OpenGLCSharpDemo\bin\Debug\OpenTK.GLControl.xml
+c:\users\deiaco\documents\visual studio 2012\Projects\OpenGLCSharpDemo\OpenGLCSharpDemo\obj\Debug\OpenGLCSharpDemo.exe
+c:\users\deiaco\documents\visual studio 2012\Projects\OpenGLCSharpDemo\OpenGLCSharpDemo\obj\Debug\OpenGLCSharpDemo.pdb
