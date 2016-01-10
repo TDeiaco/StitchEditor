@@ -61,7 +61,7 @@ namespace StitchEditor.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to  &quot;%temp%&quot;.
+        ///   Looks up a localized string similar to %temp%.
         /// </summary>
         internal static string LogPath {
             get {

@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using TLib;
 
 namespace StitchEditor
 {
@@ -40,23 +37,9 @@ namespace StitchEditor
             }
             catch (Exception ex)
             {
-                LogError(ex);
+                TLogging.LogError(ex);
                 return false;
             }
-        }
-
-        /// <summary>
-        /// Writes an exception to the error log ErrorLog.txt located in the base directory
-        /// </summary>
-        /// <param name="ex">the exception</param>
-        public void LogError(Exception ex)
-        {
-            StreamWriter sw = null;
-            System.IO.Directory.CreateDirectory(Properties.Resources.LogPath);
-            sw = new StreamWriter(Properties.Resources.LogPath + "\\ErrorLog.txt", true);
-            sw.WriteLine(string.Format("{0}: {1}; {2}", DateTime.Now, ex.Source.Trim(), ex.Message.Trim()));
-            sw.Flush();
-            sw.Close();
         }
 
         /// <summary>

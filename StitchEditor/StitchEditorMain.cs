@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Diagnostics;
 
 using OpenTK;
 using OpenTK.Graphics.OpenGL;
-using OpenTK.Platform;
+
+using TLib;
 
 namespace StichEditor
 {
@@ -141,10 +139,11 @@ void main(void)
                 // Other state
                 GL.Enable(EnableCap.DepthTest);
                 GL.ClearColor(System.Drawing.Color.MidnightBlue);
+
             }
             catch (Exception ex)
             {
-                Debug.WriteLine(ex);
+                TLogging.LogError(ex);
                 throw;
             }
 
